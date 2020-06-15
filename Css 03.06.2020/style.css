@@ -1,0 +1,30 @@
+header{text-align: center;}
+body{background: #9a0909;
+     font-size: 16px; 
+     color: white}
+#table1{text-align: center; 
+    background: black; 
+    width: 100%; 
+    font-size: 16px; ;}
+td{padding-top: 20px;}
+th{height: 40px;}
+section{display: inline-block;
+    vertical-align: top;}
+#s1{background: rgba(221, 21, 21, 0.829);
+    width: 25%;
+    font-family: cursive;
+    text-decoration:underline;
+    text-align: left;
+    color: orange;}
+#s2{width:49%;}
+#s3{width: 25%;
+    height: 232px;
+    background: grey;
+    color: black ;
+    text-align: center;}
+tr,th{border-bottom: double black 2px;}
+#title{background: rgb(121, 114, 114);}
+footer{text-align: center; 
+    background: orange;
+    font-size: 20px;
+    margin: 20px;}
