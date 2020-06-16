@@ -1,0 +1,24 @@
+body{background-color: #121116;}
+#empty1{height: 115px;}
+figure{text-align: center;
+    margin: auto;}
+    h1{width: 233px;
+    text-align: center;
+    color: #fefbfc;
+    height: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    padding-top: 50px;
+    padding-bottom: 21px;
+    border-bottom: solid white 1px;
+    margin: auto;}
+table{width: 233px;
+    margin: auto;
+    margin-top: 20px;}  
+td{text-align: center;}
+footer{text-align: center;
+    color: #fefbfc;
+    font-family: 'Open Sans', sans-serif;
+    font-size:11px;
+    padding-top: 90px;}   
+span{color: #19c8fa;}
