@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{width: 100%;
+    background: url(images/bg.png) no-repeat center;
+    background-size: cover;
+}
+
+.contact__main{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact__header{
+    width: 100%;
+    min-height: 250px;
+    text-align: center;
+}
+
+.contact__header__h1{
+    font-size: 70px;
+    margin-top: 90px;
+}
+
+.contact__header__p{
+    width: 350px;
+    height: 60px;
+    font-size: 15px;
+    margin: auto;
+}
+.contact__body{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact__form{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contact__cahee{
+    width: 49%;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #262626;
+    color: #919191;
+}
+
+.footer__logo{
+    width: 70px;
+    height: 40px;
+    margin-top: auto;
+}
+
+.contact__form__adres{
+    min-width: 300px;
+    min-height: 40px;
+    background: #00c4c4;
+    opacity: 0,5;
+    color: white;
+    border: none;
+    cursor: pointer; 
+    margin-bottom: 10px; 
+}
+
+.contact__form__email{
+    min-width: 300px;
+    min-height: 40px;
+    background-color: #00c4c4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;  
+}
+
+.contact__form__phone{
+    min-width: 300px;
+    min-height: 40px;
+    background-color: #00c4c4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;  
+}
+
+.contact__form__text{
+    min-width: 300px;
+    min-height: 250px;
+    background-color: #00c4c4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input::-webkit-input-placeholder {
+    color: white;
+}
+
+:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input{
+    outline: none;
+}
+
+input:focus{
+    border-left: solid 5px #355b82;
+}
+
+.contact__cahee__h1{
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.contact__cahee__p{
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.contact__cahee__info{
+    height: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+span{
+    color: #db2a50;
+}
+button{
+    display: none;
+    width: 50px;
+    height: 50px;
+}
