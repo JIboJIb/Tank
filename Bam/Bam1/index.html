@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="urf=8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAM</title>
+</head>
+
+<body>
+    <div class="page">
+
+        <div class="container">
+            <div class="product-card">
+                <div class="product-card__gallery">
+                    <div class="product__image">
+                        <div class="product__image_logo">
+                            <img src="../image/logonike.png" alt="nike" class="product-image_logo">
+                        </div>
+                        <img src="../image/product1.png" alt="product nike" class="product-image_img">
+                    </div>
+                    <div class="product__color">
+                        <ul class="product__color_list">
+                            <li class="product__color__item">
+                                <input type="radio" name="product-color" value="gray" checked
+                                    class=" input__color product__color_input">
+                            </li>
+                            <li class="product__color__item">
+                                <input type="radio" name="product-color" value="white"
+                                    class=" input__color product__color_input">
+                            </li>
+                            <li class="product__color__item">
+                                <input type="radio" name="product-color" value="red"
+                                    class=" input__color product__color_input">
+                            </li>
+                            <li class="product__color__item">
+                                <input type="radio" name="product-color" value="black"
+                                    class=" input__color product__color_input">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-card__description">
+                    <div class="product-card__title">Nike SB Stefan Janoski Max</div>
+                    <div class="product-card__title2">Unisex skateboarding shoe</div>
+                    <div class="rating-result">
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="product-card__inputs">
+                        <div class="product-size">
+                            <select name="size" class="product-size_size">
+                                <option value="41">41</option>
+                                <option value="42">42</option>
+                                <option value="43">43</option>
+                                <option hidden disabled selected>Size</option>
+                            </select>
+                        </div>
+                        <div class="product__qty">
+                            <select name="qty" class="product__qty_q">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option hidden disabled selected>Qty</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="product__button">
+                        <button class="product__button_add">Add to cart</button> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
