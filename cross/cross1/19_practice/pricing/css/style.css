@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+
+body{
+  width: 1415px;
+  height: 1000px;
+  background-color: #9789f9;
+}
+
+.ba-pricing__col{
+  width: 330px;
+  height: 610px;
+  background-color: #f5f4f9;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  background-image: url(/cross1/19_practice/pricing/image/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ba-pricing__col--center{
+  width: 370px;
+  height: 690px;
+  background-color: #f5f4f9;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  background-image: url(/cross1/19_practice/pricing/image/bgcenter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ba-pricing{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ba-container{
+  margin: 160px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px;
+}
+
+.ba-price__rate{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 100;
+  font-size: 44px;
+}
+
+sup{
+  font-size: 20px;
+  vertical-align: super;
+}
+
+sub{
+  font-size: 12px;
+  vertical-align: sub;
+}
+
+.ba-price__position{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.ba-price__picture{
+  margin: 65px auto 40px;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+  line-height: 40px;
+  padding-left: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.ba-button{
+  display: block;
+  width: 200px;
+  height: 55px;
+  background-color: #6fcffb;
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+  text-decoration: none;
+  position: absolute;
+  bottom: -27px;
+  left: 50%;
+  right: 50%;
+  margin-left: -100px;
+  margin-right: -100px;
+  font-family: 'Bebas Neue', bold;
+  vertical-align: middle;
+  line-height: 55px;
+}
+
+.ba-button:hover{
+  background-color: #fd8d7b;
+}
+
+.popular1{
+  height: 4px;
+  width: 4px;
+  background-color: #fd8d7b;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.popular2{
+  height: 12px;
+  width: 12px;
+  background-color: #fd8d7b;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.popular3{
+  height: 50px;
+  width: 50px;
+  background-color: #fd8d7b;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  line-height: 50px;
+  font-size: 17px;
+}
