@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@900&display=swap');
+$color:#ffcc00;
+
+.header{
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: solid 1px $color;
+    width: 450px;
+    position: relative;
+    &__subinfo{
+        margin-top: 110px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+        color: #898f8f;
+    }
+    &__maininfo{
+        color: $color;
+        font-family: 'Roboto', sans-serif;
+        font-size: 45px;
+        margin-top: 20px;
+    }
+    &__image_bonfire{
+        position: absolute;
+        bottom: -15px;
+        left: 210px;
+        width: 30px;
+        background-color: white;
+    }
+}
+
+.card{
+    height: 560px;
+    text-align: center;
+    display: flex;
+    &__image{
+        width: 50%;
+        display: inline-block;
+        border-right: 1px solid $color;
+    }
+
+    &__imageframe{
+        height: 420px;
+        width: 420px;
+        margin: 75px auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        align-content: center; 
+        justify-content: center; 
+
+    &:before, &:after, &>:first-child:before, &>:first-child:after{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border: 2px solid $color;
+        content: '';
+    }
+    &:before {top:0;left:0;border-width: 1px 0 0 1px}
+    &:after {top:0;right:0;border-width: 1px 1px 0 0}
+    &>:first-child:before {bottom:0;right:0;border-width: 0 1px 1px 0}
+    &>:first-child:after {bottom:0;left:0;border-width: 0 0 1px 1px}
+
+        &_foto{
+            height: 390px;
+            width: 390px;
+            background-image: url(/Image/foto.png);
+            background-size: 100%;
+            border: 1px solid $color;
+            margin: 15px 14px;
+        }
+    }
+
+    &__resume{
+        width: 49%;
+        display: inline-block;
+        height: 560px;
+        margin: 0 auto;
+        color: #666666;
+    }
+
+    &__resumeframe{
+        margin-top: 100px;
+        font-family: 'Roboto', sans-serif;
+
+        &:after{
+            content: "";
+            display: block;
+            width: 100px;
+            height: 1px;
+            background: $color;
+            margin: 35px auto;
+        }
+    }
+
+    &__resume_name{
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+    }
+
+    &__resume_profession{
+        font-size: 17px;
+    }
+
+    &__resume_info{
+        width: 420px;
+        height: 110px;
+        margin: 0 auto;
+        font-family: 'Raleway', sans-serif;
+        font-size: 11px;
+        line-height: 2;
+    }
+
+
+    &__socialnetworks{
+        width: 150px;
+        height: 35px;
+        display: flex;
+        margin: 30px auto;
+        text-align: center;
+    
+        &_cell{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            border: 2px solid #666666;
+            margin-right: 5px;
+            cursor: pointer;
+            &:hover{
+                border: 2px solid $color;
+            }
+        }
+    }
+
+    &__resumeframe_dashed{
+
+        &:after{
+            content: "";
+            display: block;
+            width: 50px;
+            height: 4px;
+            background-image: url(/Image/dashed.png);
+            margin: 0px auto;
+        }
+    }
+    &__button_view{
+        width: 118px;
+        height: 22px;
+        border: $color 2px solid;
+        margin-top: 25px;
+        cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: auto;
+
+        &:hover{
+            border: 2px solid white;
+            background-color: $color;
+        }
+
+        &:focus{
+            background-color: #666666;
+        }
+    }
+&__radiobuttons{
+    height: 20px;
+    width: 100px;
+    margin: 40px auto;
+    text-align: center;
+}
+    }
+
+.label{
+    
+}
+
+.radio{
+    display: none;
+}
+
+.fake{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid $color;
+    position: absolute;
+    border-radius: 50%;
+    position: relative;
+    background-color: $color;
+
+    &::before{
+        content: '';
+        display: block;
+        width: 12px;
+        height: 12px;
+        border: 1px solid $color;
+        position: absolute;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        opacity: 0;
+        transition: .2s;
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        top: 50%;
+}
+}
+.radio:checked + .fake:before{
+    opacity: 1;
+} 

@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@900&display=swap");
+.header {
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: solid 1px #ffcc00;
+  width: 450px;
+  position: relative;
+}
+.header__subinfo {
+  margin-top: 110px;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #898f8f;
+}
+.header__maininfo {
+  color: #ffcc00;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  margin-top: 20px;
+}
+.header__image_bonfire {
+  position: absolute;
+  bottom: -15px;
+  left: 210px;
+  width: 30px;
+  background-color: white;
+}
+
+.card {
+  height: 560px;
+  text-align: center;
+  display: flex;
+}
+.card__image {
+  width: 50%;
+  display: inline-block;
+  border-right: 1px solid #ffcc00;
+}
+.card__imageframe {
+  height: 420px;
+  width: 420px;
+  margin: 75px auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.card__imageframe:before, .card__imageframe:after, .card__imageframe > :first-child:before, .card__imageframe > :first-child:after {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #ffcc00;
+  content: "";
+}
+.card__imageframe:before {
+  top: 0;
+  left: 0;
+  border-width: 1px 0 0 1px;
+}
+.card__imageframe:after {
+  top: 0;
+  right: 0;
+  border-width: 1px 1px 0 0;
+}
+.card__imageframe > :first-child:before {
+  bottom: 0;
+  right: 0;
+  border-width: 0 1px 1px 0;
+}
+.card__imageframe > :first-child:after {
+  bottom: 0;
+  left: 0;
+  border-width: 0 0 1px 1px;
+}
+.card__imageframe_foto {
+  height: 390px;
+  width: 390px;
+  background-image: url(/Image/foto.png);
+  background-size: 100%;
+  border: 1px solid #ffcc00;
+  margin: 15px 14px;
+}
+.card__resume {
+  width: 49%;
+  display: inline-block;
+  height: 560px;
+  margin: 0 auto;
+  color: #666666;
+}
+.card__resumeframe {
+  margin-top: 100px;
+  font-family: "Roboto", sans-serif;
+}
+.card__resumeframe:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background: #ffcc00;
+  margin: 35px auto;
+}
+.card__resume_name {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+}
+.card__resume_profession {
+  font-size: 17px;
+}
+.card__resume_info {
+  width: 420px;
+  height: 110px;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+  font-size: 11px;
+  line-height: 2;
+}
+.card__socialnetworks {
+  width: 150px;
+  height: 35px;
+  display: flex;
+  margin: 30px auto;
+  text-align: center;
+}
+.card__socialnetworks_cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid #666666;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.card__socialnetworks_cell:hover {
+  border: 2px solid #ffcc00;
+}
+.card__resumeframe_dashed:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-image: url(/Image/dashed.png);
+  margin: 0px auto;
+}
+.card__button_view {
+  width: 118px;
+  height: 22px;
+  border: #ffcc00 2px solid;
+  margin-top: 25px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: auto;
+}
+.card__button_view:hover {
+  border: 2px solid white;
+  background-color: #ffcc00;
+}
+.card__button_view:focus {
+  background-color: #666666;
+}
+.card__radiobuttons {
+  height: 20px;
+  width: 100px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.radio {
+  display: none;
+}
+
+.fake {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #ffcc00;
+  position: absolute;
+  border-radius: 50%;
+  position: relative;
+  background-color: #ffcc00;
+}
+.fake::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #ffcc00;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  opacity: 0;
+  transition: 0.2s;
+}
+.fake::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+}
+
+.radio:checked + .fake:before {
+  opacity: 1;
+}
