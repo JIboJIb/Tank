@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+.main{
+    width: 1920px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.header{
+    width: 1920px;
+    height: 1070px;
+    background-image: url(image/hero-bg.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.header__info{
+    width: 600px;
+    height: 410px;
+    text-align: center;
+    position: absolute;
+    top: 280px;
+    color: white;
+}
+
+.header__logo_white{
+    width: 70px;
+    height: 70px;
+}
+
+.header__info_headertitle{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-bottom: 55px;
+}
+
+.aboutus{
+    width: 1920px;
+    height: 630px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus__box{
+    width: 900px;
+    height: 310px;
+    border: black solid 2px;
+    border-top: 0;
+    margin-top: 160px;
+    text-align: center;
+    position: relative;
+}
+
+.aboutus__box:before, .aboutus__box:after{
+    content: '';
+    width: 240px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.aboutus__box:after{
+    left: unset;
+    right: 0;
+}
+
+.aboutus__text_h1{
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -0.5em;
+    font-size: 34px;
+}
+
+.aboutus__text_info{
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.aboutus__text_subinfo{
+    width: 450px;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.services{
+    height: 485px;
+    background-image: url(image/services.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.services__box{
+    width: 900px;
+    height: 310px;
+    border: white solid 2px;
+    border-top: 0;
+    margin-top: 125px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.services__box:before, .services__box:after{
+    content: '';
+    width: 240px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.services__box:after{
+    left: unset;
+    right: 0;
+}
+
+.services__text_title{
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -0.5em;
+    font-size: 34px;
+}
+
+.services__text_info{
+    width: 550px;
+    text-align: center;
+    margin: 80px auto;
+}    
+.whatwedo{
+    height: 1415px;
+    display: flex;
+    justify-content: center;
+}
+
+.whatwedo__box{
+    height: 1175px;
+    width: 900px;
+    border: black solid 2px;
+    border-top: 0;
+    margin-top: 125px;
+    text-align: center;
+    position: relative;
+}
+
+.whatwedo__box:before, .whatwedo__box:after{
+    content: '';
+    width: 240px;
+    height: 2px;
+    background-color:black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.whatwedo__box:after{
+    left: unset;
+    right: 0;
+}
+
+.whatwedo__box_title{
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -0.5em;
+    font-size: 34px;
+}
+
+.whatwedo__boximage{
+    margin-top: 110px;
+    margin-bottom: 40px;
+}
+.whatwedo__boximage_svg{
+    height: 80px;
+    width: 80px;
+}
+.whatwedo__box_subtitle{
+    margin: 40px auto;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.whatwedo__box_text{
+    width: 550px;
+    margin: 0 auto;
+}
+
+.marcas{
+    height: 485px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.marcas__leftside_topworkz{
+    position: relative;
+    height: 235px;
+    width: 545px;
+    background-image: url(image/topworksbg.png);
+}
+
+.marcas__leftside_worktop{
+    position: relative;
+    margin-top: 10px;
+    height: 235px;
+    width: 545px;
+    background-image: url(image/worktopbg.png);
+}
+
+.marcas__center_joint{
+    position: relative;
+    height: 235px;
+    width: 800px;
+    background-image: url(image/jointbg.png);
+}
+
+.marcas__center_lable{
+    position: relative;
+    margin-top: 10px;
+    height: 235px;
+    width: 800px;
+    background-image: url(image/lablebg.png);
+}
+
+.marcas__rightside_market{
+    position: relative;
+    height: 235px;
+    width: 545px;
+    background-image: url(image/marketbg.png);
+}
+
+.marcas__rightside_kyiv{
+    position: relative;
+    margin-top: 10px;
+    height: 235px;
+    width: 545px;
+    background-image: url(image/kyivbg.png);
+}
+
+.marcas__h1_whitetext{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    left: 45px;
+    bottom: 40px;
+}
+
+.contactus{
+    height: 490px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactus__box{
+    height: 290px;
+    width: 900px;
+    border: black solid 2px;
+    border-top: 0;
+    margin-top: 125px;
+    text-align: center;
+    position: relative;
+}
+
+.contactus__box:before, .contactus__box:after{
+    content: '';
+    width: 240px;
+    height: 2px;
+    background-color:black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contactus__box:after{
+    left: unset;
+    right: 0;
+}
+
+.contactus__text_title{
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -0.5em;
+    font-size: 22px;
+}
+
+.contactus__text_info{
+    margin: 75px auto 0;
+    width: 540px;
+}
+
+.contactus__bottom_black{
+    width: 395px;
+    height: 55px;
+    color: white;
+    background-color: #3c3c3c;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 45px;
+}
+
+.contactus__bottom_black:hover{
+    background-color: black;
+}
+
+.contactus__bottom_black:active{
+    background-color: white;
+}
+
+.footer__info{
+    height: 40px;
+    width: 315px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
