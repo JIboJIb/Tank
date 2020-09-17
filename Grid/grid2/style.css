@@ -1,0 +1,92 @@
+@font-face{
+    font-family: 'HansKendrick';
+    src: url('fonts/Regular/NeueHansKendrick-Regular.otf');
+    src: url('fonts/Regular/NeueHansKendrick-Regular.otf') format('woff');
+    src: url('fonts/Regular/NeueHansKendrick-Regular.ttf');
+    src: url('fonts/Regular/NeueHansKendrick-Regular.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    width: 1600px;
+    height: 1400px;
+    background-color: #e2e7ec;
+    font-family: 'HansKendrick';
+}
+
+.gridarea{
+    width: 1120px;
+    height: 1100px;
+    margin: 90px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: repeat(2, 540px);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.gridarea__griditem1{
+    grid-column: 1/3;
+    background-image: url(image/redcar.png);
+    position: relative;
+}
+
+.griditem1__textarea_white{
+    width: 695px;
+    height: 140px;
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    bottom: 0;
+    left:40px;
+    font-weight: bold;   
+}
+
+.griditem__textarea_datagrey{
+    display: block;
+    font-size: 11px;
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+
+.gridarea__griditem{
+    font-family: 'HansKendrick';
+    background-color: white;
+}
+
+.griditem__fotoarea{
+    width: 360px;
+    height: 251px;
+}
+
+.griditem__textarea{
+    width: 310px;
+    height: 115px;
+    margin: 25px auto;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.griditem__textarea_data{
+    display: block;
+    font-size: 10px;
+    color: #818181;
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+
+.griditem__fotologo{
+    margin-left: 25px;
+    margin-top: 70px;
+}
+
+.griditem__textarea_center{
+    width: 310px;
+    height: 75px;
+    margin: 60px auto;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
