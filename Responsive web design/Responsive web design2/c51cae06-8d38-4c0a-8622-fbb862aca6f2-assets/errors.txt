@@ -1,0 +1,3 @@
+[Wed Jul 01 2020 01:24:51 GMT+0200 (Романское время (лето))]
+services.jpg: Error while writing F:\Fechas\Tank\Svg\svg2\c51cae06-8d38-4c0a-8622-fbb862aca6f2-assets\services.jpg: Error: ENOENT, open 'F:\Fechas\Tank\Svg\svg2\c51cae06-8d38-4c0a-8622-fbb862aca6f2-assets\services.jpg'
+
